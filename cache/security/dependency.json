@@ -1,0 +1,1 @@
+{"sabberworm\/php-css-parser":{"version":"8.3.0","advisories":[{"title":"Code injection vulnerability in allSelectors()","link":"https:\/\/packetstormsecurity.com\/files\/cve\/CVE-2020-13756","cve":"CVE-2020-13756"}]}}

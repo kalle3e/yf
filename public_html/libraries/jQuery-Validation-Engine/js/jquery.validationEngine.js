@@ -7,7 +7,7 @@
  * 2.0 Rewrite by Olivier Refalo
  * http://www.crionics.com
  *
- * Form validation engine allowing custom regex rules to be added.
+ * Form validation eng ine allowing custom regex rules to be added.
  * Licensed under the MIT License
  */
  (function($) {
@@ -266,10 +266,6 @@
                 }, (event.data) ? event.data.delay : 0);
 
             }
-
-
-
-
 		},
 		/**
 		* Called when the form is submited, shows prompts accordingly

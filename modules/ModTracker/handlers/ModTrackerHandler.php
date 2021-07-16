@@ -10,7 +10,7 @@
  * ********************************************************************************** */
 require_once __DIR__ . '/../ModTracker.php';
 
-class ModTracker_ModTrackerHandler_Handler
+class  ModTracker_ModTrackerHandler_Handler
 {
 	/**
 	 * EntityAfterSave function.

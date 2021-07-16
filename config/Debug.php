@@ -36,7 +36,7 @@ class Debug
 	public static $DISPLAY_LOGS_IN_CONSOLE = false;
 
 	/** Enable displaying logs in debug console. Values: false/true */
-	public static $DISPLAY_CONFIG_IN_CONSOLE = false;
+	public static $DISPLAY_CONFIG_IN_CONSOLE = true;
 
 	/** List of IP addresses allowed to display debug console. Values: false = All IPS / "192.168.1.10" / ["192.168.1.10","192.168.1.11"] */
 	public static $DEBUG_CONSOLE_ALLOWED_IPS = false;
@@ -60,13 +60,13 @@ class Debug
 	public static $SMARTY_ERROR_REPORTING = E_ALL & ~E_NOTICE;
 
 	/** Turn on/off error debugging in javascript */
-	public static $JS_DEBUG = true;
+	public static $JS_DEBUG = false;
 
 	/** Displays information about the tracking code when an error occurs. Available only with the active SQL_DIE_ON_ERROR = true */
-	public static $DISPLAY_EXCEPTION_BACKTRACE = false;
+	public static $DISPLAY_EXCEPTION_BACKTRACE = true;
 
 	/** Display logs when error exception occurs */
-	public static $DISPLAY_EXCEPTION_LOGS = false;
+	public static $DISPLAY_EXCEPTION_LOGS = true;
 
 	/** Turn on/off the error handler */
 	public static $EXCEPTION_ERROR_HANDLER = false;

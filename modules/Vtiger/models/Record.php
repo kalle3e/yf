@@ -584,7 +584,7 @@ class Vtiger_Record_Model extends \App\Base
 
 	/**
 	 * Get entity data for save.
-	 *
+	 *last_name
 	 * @return array
 	 */
 	public function getEntityDataForSave()

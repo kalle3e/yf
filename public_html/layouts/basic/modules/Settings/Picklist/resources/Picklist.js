@@ -9,7 +9,7 @@
 'use strict';
 
 var Settings_Picklist_Js = {
-	registerModuleChangeEvent: function() {
+	   registerModuleChangeEvent: function() {
 		jQuery('#pickListModules').on('change', function(e) {
 			var selectedModule = jQuery(e.currentTarget).val();
 			if (selectedModule.length <= 0) {
@@ -307,7 +307,7 @@ var Settings_Picklist_Js = {
 	 *
 	 * @return  {array}
 	 */
-	getSelectedItems() {
+	 getSelectedItems() {
 		const pickListValuesTable = $('#pickListValuesTable');
 		const selectedListItem = $('.selectedListItem', pickListValuesTable);
 		const selectedListItemsArray = [];

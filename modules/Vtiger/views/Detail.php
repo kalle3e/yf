@@ -177,7 +177,7 @@ class Vtiger_Detail_View extends Vtiger_Index_View
 		} elseif (false === $defaultMode) {
 			$defaultMode = 'showDetailViewByMode';
 		}
-		echo $this->{$defaultMode}($request);
+ 		echo $this->{$defaultMode}($request);
 	}
 
 	public function postProcess(App\Request $request, $display = true)

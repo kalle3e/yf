@@ -54,7 +54,7 @@ class Vtiger_Viewer extends SmartyBC
 		} else {
 			self::$currentLayout = \App\Layout::getActiveLayout();
 		}
-		if (App\Config::performance('LOAD_CUSTOM_FILES')) {
+ 		if (App\Config::performance('LOAD_CUSTOM_FILES')) {
 			$templateDir[] = $THISDIR . '/../../custom/layouts/' . self::$currentLayout;
 		}
 		$templateDir[] = $THISDIR . '/../../layouts/' . self::$currentLayout;

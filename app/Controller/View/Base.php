@@ -141,7 +141,7 @@ abstract class Base extends \App\Controller\Base
 	 */
 	public function preProcess(\App\Request $request, $display = true)
 	{
-		$moduleName = $request->getModule();
+ 		$moduleName = $request->getModule();
 		$view = $this->getViewer($request);
 		$title = $this->getPageTitle($request);
 		$this->loadJsConfig($request);
